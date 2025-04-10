@@ -1,0 +1,29 @@
+.nevedimka {
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(180deg);
+
+}
+
+.kartinka-tulenya {
+    display: block;
+    width: 2000px;
+    height: 1000px;
+    }
+
+    @keyframes tuleni-tancuut {
+        0% {
+            transform: rotate(1deg);
+        }
+        50% {
+            transform: rotate(180deg); 
+        }
+        100% {
+            opacity: 1; 
+        }
+    }
+
+    .tuleni-animka {
+    animation: tuleni-tancuut 1s 1;
+    animation-fill-mode: forwards;
+    }
